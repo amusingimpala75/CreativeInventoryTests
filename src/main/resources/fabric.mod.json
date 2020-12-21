@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "configbackground",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "issues": "https://github.com/TextileMC/Textile-Example-Mod/issues",
+    "sources": "https://github.com/TextileMC/Textile-Example-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/configbackground/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.amusingimpala75.configurableBackground.ConfigBackground"
+    ]
+  },
+  "mixins": [
+    "configurable-background.mixins.json"
+  ],
+  "accessWidener" : "backgroundconfig.accesswidener",
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "20100618"
+  }
+}

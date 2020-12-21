@@ -1,0 +1,3 @@
+accessWidener	v1	named
+extendable method net/minecraft/client/gui/Button method_599 (Lnet/minecraft/client/MinecraftClient;II)V
+extendable method net/minecraft/client/gui/screen/GameplayScreen method_575 (III)V

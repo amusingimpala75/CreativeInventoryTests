@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.github.amusingimpala75.configurableBackground.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ButtonRenderAccessor",
+    "PlayerOpenCreativeInventory",
+    "TitleScreenModifier"
+  ],
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
