@@ -21,9 +21,9 @@ public abstract class PlayerOpenCreativeInventory extends Player {
     }
     @Inject(at=@At("HEAD"), method = "openCraftingScreen", cancellable = true)
     public void redirectToCreativeInventory(CallbackInfo info) {
-        if (true) {     //Replace this with your creative checking method
-            this.client.showScreen(new CreativeInventoryScreen(this.inventory));
-            info.cancel();
-        }
+        //if (true) {     //Replace this with your creative checking method
+        //    this.client.showScreen(new CreativeInventoryScreen(this.inventory));
+        //    info.cancel();
+        //}
     }
 }

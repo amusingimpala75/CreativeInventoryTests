@@ -4,6 +4,9 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "ButtonRenderAccessor",
+    "MCClientMixin",
+    "PlayerInventoryAccessor",
+    "PlayerInvScreenMixin",
     "PlayerOpenCreativeInventory",
     "TitleScreenModifier"
   ],

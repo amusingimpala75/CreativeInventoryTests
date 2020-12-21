@@ -1,6 +1,5 @@
 package com.github.amusingimpala75.configurableBackground.client;
 
-import com.github.amusingimpala75.configurableBackground.mixin.ButtonRenderAccessor;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.Button;
 
